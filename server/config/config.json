@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "ngima@baseapp",
+    "password": "Rk159lus",
+    "database": "baseapp",
+    "port": 3306,
+    "host": "baseapp.mysql.database.azure.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "ayush",
+    "password": "ayush",
+    "database": "baseapp",
+    "port": 3306,
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "ulftyqjizmqsqeef",
+    "password": "Q4n4ClB5VZTGRfxXdOkI",
+    "database": "bszpm15cmxrdhu8u7v1f",
+    "host": "bszpm15cmxrdhu8u7v1f-mysql.services.clever-cloud.com",
+    "dialect": "mysql"
+  }
+}

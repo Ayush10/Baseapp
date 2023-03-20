@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  background-color: #edeae5;
+  font-family: Lora !important;
+  height: 100vh !important;
+}
+
+h1 {
+  font-family: Lora;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+h3 {
+  font-family: Lora;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+p {
+  font-family: Lora;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: Lora;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: Lora;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5667px;
+}
+
+.MaterialForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MaterialForm > Form {
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+  width: 80%;
+}
+
+.errorMsg {
+  color: red;
+}
+
+.content {
+  min-height: 300px;
+  margin-top: 90px;
+}
+
+.Card-Header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1%;
+  min-width: 100px;
+}
+
+.card-content-cust {
+  margin-top: 2%;
+}
+
+.MuiDrawer-root {
+  background-color: #1f2833 !important;
+}
+
+.drawerList:hover {
+  background-color: #66fcf1 !important;
+  border-radius: 20px !important;
+  width: 500px !important;
+  transition: ease-in-out 0.7s !important ;
+}
+
+.TableMaterial {
+  margin-left: 1%;
+}
+
+.MuiBottomNavigationAction-root {
+  display: none !important;
+  background-color: #edeae5;
+  margin: 0;
+  padding: 0;
+}
+
+.mainbox404 {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.err404 {
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 20%;
+  top: 8%;
+}
+
+.far {
+  position: absolute;
+  font-size: 8.5rem;
+  left: 42%;
+  top: 15%;
+  color: #ffffff;
+}
+
+.err2404 {
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 68%;
+  top: 8%;
+}
+
+.msg404 {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  position: absolute;
+  border-radius: 20px;
+  left: 5%;
+  top: 35%;
+  width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-cont-head {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .card-content-cust {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .MuiBottomNavigationAction-root {
+    display: flex !important;
+  }
+}
